@@ -1,0 +1,23 @@
+* { 
+   box-sizing: border-box; 
+}
+
+div {
+    column-count: 3;
+    background-color: rgb(200 200 200 / 100%);
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.recuadro1{
+    column-rule: 1px solid rgb(255 0 0 / 100%);
+}
+
+.recuadro2{
+    column-rule: 2px dotted rgb(255 0 0 / 100%);
+}
+
+.recuadro3{
+    column-rule: 2px dashed rgb(0 0 255 / 100%);
+}

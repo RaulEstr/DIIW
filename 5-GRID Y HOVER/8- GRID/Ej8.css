@@ -1,0 +1,89 @@
+* {
+    font-family: "Fredericka the Great";
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 6% 6% 85% 3%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+}
+
+.b {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: cyan;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 5px 5px 0 brown;
+}
+
+.c {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: cyan;
+    margin: 2px;
+    display: grid;
+    padding: 10px;
+    color: white;
+    font-size: 0.5em;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+}
+
+.erdian {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border: 1px solid cyan;
+    margin: 2px;
+    text-align: center;
+    height: 500px;
+}
+
+.d {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color: cyan;
+    margin: 2px;
+    background-image: url("img/Sutea.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.f, .g, .h {
+    background-color: darkcyan;
+    padding: 10px;
+    color:coral;
+    font-size: 2em;
+    border-radius: 3px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+p:first-of-type {
+    text-align: right;
+}
+
+iframe {
+    width: 40%;
+}

@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    text-shadow: -10px -10px 0px rgb(0 0 0 / 50%), 10px 10px 0px rgb(0 0 0 / 20%);
+}
+
+div {
+    background-color: rgb(200 200 200 / 100%);
+    padding: 50px;
+    margin: 5px;
+}
+div::first-letter {
+    font-size: 3rem;
+}
+
+.caja1 {
+    border: 20px solid transparent;
+    border-image: url("../imagenes/bordes.png") 20 stretch;
+}
+
+.caja2 {
+    border: 20px solid transparent;
+    border-image: url("../imagenes/bordes.png") 20 round;
+}
+
+.caja3{
+    border: 20px solid transparent;
+    border-image: url("../imagenes/bordes.png") 20 repeat;
+}

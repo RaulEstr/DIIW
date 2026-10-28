@@ -1,0 +1,19 @@
+* { 
+   box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo1 {
+    text-shadow: 4px 3px 3px rgb(0 0 0 / 40%);
+}
+
+.titulo2 {
+    text-shadow: -4px -3px 3px rgb(0 0 0 / 40%);
+}
+
+.titulo3 {
+    text-shadow: 2px 2px 3px rgb(255 0 0 / 80%), 4px 4px 3px rgb(0 255 0 / 80%), 6px 6px 3px rgb(0 0 255 / 80%);
+}

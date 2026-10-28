@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montes de Álava - Promoción del Comercio Local y de Montaña</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Insignia fija animada -->
+  <div class="badge-fijo pulse-badge">Pasaporte Montañero</div>
+
+  <!-- Encabezado y Navegación -->
+  <header class="header">
+    <div class="logo">Montes de <span>Álava</span></div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#sobre-nosotros" class="nav-link">El Proyecto</a></li>
+        <li><a href="#rutas" class="nav-link">Rutas</a></li>
+        <li><a href="#comercios" class="nav-link">Comercio Local</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Usa hero-gorbea.jpg en el CSS de fondo) -->
+  <section class="hero" id="inicio">
+    <div class="oveja" aria-hidden="true">🐑</div>
+    <div class="hero-content">
+      <h1 class="fade-in-down">Descubre los Montes de Álava y su Comercio Local</h1>
+      <p class="fade-in-up">Siente la naturaleza, recorre nuestros senderos y apoya a los comercios, mercados y productores de nuestras cuadrillas.</p>
+      <a href="#rutas" class="btn fade-in-up">Explorar Rutas</a>
+    </div>
+  </section>
+
+  <!-- Sección de Texto Explicativo -->
+  <section class="info-section" id="sobre-nosotros">
+    <h2>Compromiso con la Montaña y el Comercio Rural</h2>
+    <div class="multi-column-text">
+      <p>
+        Los montes de Álava constituyen un patrimonio natural único que conecta valles, parques naturales y pequeñas comunidades rurales. Promover el senderismo responsable no solo implica disfrutar de cimas emblemáticas como el Gorbea o el Toloño, sino también dinamizar la economía de los pueblos que nos reciben al descender de la montaña.
+      </p>
+      <p>
+        Comprar en los pequeños comercios de montaña, degustar el Queso Idiazabal de la zona y consumir productos frescos de las cuadrillas alavesas garantiza la supervivencia del tejido comercial tradicional. Cada visita a un mercado de productores Km0 contribuye a mantener vivas las tradiciones locales y la sostenibilidad del medio rural.
+      </p>
+      <p>
+        El programa <strong>Pasaporte Montañero</strong> vincula las rutas de senderismo con descuentos en tiendas de barrio, alojamientos rurales y queserías de las cuadrillas de Zuia, la Llanada Alavesa, la Montaña Alavesa y la Rioja Alavesa. ¡Suma pasos en tus botas y apoya el comercio de proximidad!
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN SIN CLASES (AQUÍ APLICAN LOS SELECTORES PSEUDO-CLASE CHILD/TYPE) -->
+  <main id="rutas">
+    <h2>Rutas Destacadas y Productos Km0</h2>
+    
+    <div>
+      <!-- Tarjeta 1 -->
+      <article>
+        <div>
+          <img src="img/queso-idiazabal.jpg" alt="Queso Idiazabal de Zuia">
+        </div>
+        <div>
+          <h3>Gorbea y el Queso Idiazabal de Zuia</h3>
+          <p>Ascensión a la cima del Gorbea combinada con visitas a queserías y comercios artesanales de Zuia.</p>
+          <a href="#">Ver detalles</a>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article>
+        <div>
+          <img src="img/hayedo-aizkorri.jpg" alt="Parque Natural Aizkorri-Aratz">
+        </div>
+        <div>
+          <h3>Aizkorri-Aratz y Mercado de Zalduondo</h3>
+          <p>Senderismo entre hayas centenarias y apoyo al pequeño comercio de los pueblos de la Llanada Alavesa.</p>
+          <a href="#">Ver detalles</a>
+        </div>
+      </article>
+
+      <!-- Tarjeta 3 -->
+      <article>
+        <div>
+          <img src="img/sierra-tolono.jpg" alt="Sierra de Cantabria Toloño">
+        </div>
+        <div>
+          <h3>Sierra de Toloño y Comercios de Guardia</h3>
+          <p>Ruta por las crestas de la Sierra de Cantabria y parada en las tiendas tradicionales de Rioja Alavesa.</p>
+          <a href="#">Ver detalles</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- FOOTER COMPLETO -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Columna 1 -->
+      <div class="footer-col">
+        <h3 class="footer-title">Montes de <span>Álava</span></h3>
+        <p class="footer-desc">Iniciativa para la conservación de la red de senderos y el impulso del pequeño comercio y productores de las cuadrillas alavesas.</p>
+        <div class="social-icons">
+          <a href="#" class="social-btn" aria-label="Ubicación">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Teléfono">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <img src="img/icjardin.png" alt="Logotipo Jardín / Proyecto" class="footer-icon-copyright">
+      <p>&copy; 2026 Red de Senderos y Comercio Local de Álava. Impulsando la economía rural y sostenible.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

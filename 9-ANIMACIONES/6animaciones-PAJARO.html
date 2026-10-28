@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+        <title>Fondo animado con CSS</title> 
+        
+        <style>
+            .pajaro {
+                /**/
+                height: 600px;
+                width: 60%;
+                margin: auto;
+                background-repeat: no-repeat;
+                animation-name: pajaro; 
+                /*Duración de la animación */
+                animation-duration: 5s;
+                /*Veces que se repite*/
+                animation-iteration-count: 1;
+                /*animation-play-state: paused;*/
+                animation-delay: 1s;
+                animation
+            }
+            
+            
+            
+            @keyframes pajaro 
+        { /*Defino el número de fotogramas por %. En este caso 11 fotogramas. Y dentro de cada uno de ellos lo que va a ocurrir. Girar 720º/10 veces= 72º en cada fotograma*/
+            0%{
+                background-image: url(secuenciaimagenes/imagen1.png);
+                transform: translateX(0%);
+            }
+            10%{
+                background-image: url(secuenciaimagenes/imagen2.png);
+                transform: translateX(10%);
+            }
+            20%{
+                background-image: url(secuenciaimagenes/imagen3.png);
+                transform: translateX(20%);
+            }
+            30%{
+                background-image: url(secuenciaimagenes/imagen4.png);
+                transform: translateX(30%) translateY(50px);
+            }
+            40%{
+                background-image: url(secuenciaimagenes/imagen5.png);
+                transform: translateX(40%) translateY(50px);
+            }
+            50%{
+                background-image: url(secuenciaimagenes/imagen6.png);
+                transform: translateX(50%) translateY(50px);
+            }
+            60%{
+                background-image: url(secuenciaimagenes/imagen7.png);
+                transform: translateX(60%);
+            }
+            70%{
+                background-image: url(secuenciaimagenes/imagen8.png),url(Arbol.jpg);
+                transform: translateX(70%) translateY(10px);
+            }
+            80%{
+                background-image: url(secuenciaimagenes/imagen9.png),url(Arbol.jpg);
+                transform: translateX(80%);
+            }
+            90%{
+                background-image: url(secuenciaimagenes/imagen10.png),url(Arbol.jpg);
+                transform: translateX(90%);
+            }
+        </style>
+        
+    </head>
+    <body>
+            <div class="pajaro"></div> 
+    </body>
+</html>

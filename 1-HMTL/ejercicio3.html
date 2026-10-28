@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <!-- Un poco de estilo que no queda un poco feo -->
+    <style>
+        .labelForm {
+            display:inline-block;
+            width:200px;
+            text-align: right;
+            height: 30px;
+        }
+        .inputForm {
+            height: 25px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>FICHA DE INSCRIPCIÓN</h1>
+    <form>
+        <fieldset>
+            <legend>Datos identificativos</legend>
+            <label class="labelForm">Código de suscripción: </label>
+            <input class="inputForm" type="text" maxlength="10" size="10" value="INS-00123" readonly>
+            <br>
+            <label class="labelForm">Nº Socio: </label>
+            <input class="inputForm" type="number" disabled value="123">
+            <br>
+            <label class="labelForm">Usuario: </label>
+            <input class="inputForm" type="text" maxlength="10" required>
+            <br>
+            <label class="labelForm">Contraseña: </label>
+            <input class="inputForm" type="password" maxlength="10" required>
+            <br>
+            <label class="labelForm">Repetir Contraseña: </label>
+            <input class="inputForm" type="password" maxlength="10" required>
+            <br>
+            <label class="labelForm">Nombre Completo: </label>
+            <input class="inputForm" type="text" size="30" maxlength="30" autofocus>
+            <br>
+            <label class="labelForm">DNI: </label>
+            <input class="inputForm" type="text" size="10" maxlength="8" pattern="[0-9]{8}" title="8 numeros">
+            <br>
+            <label class="labelForm">Letra: </label>
+            <input class="inputForm" type="text" size="2" maxlength="1" pattern="[A-Za-z]{1}" title="1 letra">
+            <br>
+            <label class="labelForm">Dirección: </label>
+            <input class="inputForm" type="text" size="30" maxlength="30">
+            <br>
+            <label class="labelForm">Ciudad: </label>
+            <input class="inputForm" type="text" size="15" maxlength="15">
+            <br>
+            <label class="labelForm">Código Postal: </label>
+            <input class="inputForm" type="text" size="5" maxlength="5" pattern="[0-9]{5}" title="5 numeros">
+            <br>
+            <label class="labelForm">País: </label>
+            <input class="inputForm" type="text" disabled size="7" maxlength="7" value="Francia">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Datos Bancarios</legend>
+            <input type="radio" id="visa" name="banco">
+            <label for="visa">Visa</label>
+            <input type="radio" id="mastercard" name="banco">
+            <label for="mastercard">Master Card</label>
+            <input type="radio" id="americanexpress" name="banco" checked="checked">
+            <label for="americanexpress">American Express</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Aficiones</legend>
+            <input type="checkbox" id="leer" name="leer" value="Leer" checked="checked">
+            <label for="leer">Leer</label>
+            <input type="checkbox" id="viajar" name="viajar" value="Viajar" checked="checked">
+            <label for="viajar">Viajar</label>
+            <input type="checkbox" id="musica" name="musica" value="Escuchar musica" checked="checked">
+            <label for="musica">Escuchar música</label>
+            <input type="checkbox" id="deportes" name="deportes" value="Deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="montania" name="montania" value="Montaña">
+            <label for="montania">Montaña</label>
+            <input type="checkbox" id="juegos" name="juegos" value="Juegos de Estrategia" checked="checked">
+            <label for="juegos">Juegos de Estrategia</label>
+            <br>
+            <input type="checkbox" id="informatica" name="informatica" value="Informatica">
+            <label for="informatica">Informatica</label>
+            <input type="checkbox" id="jogging" name="jogging" value="Jogging">
+            <label for="jogging">Jogging</label>
+            <input type="checkbox" id="cine" name="cine" value="Cine">
+            <label for="jogging">Jogging</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Enviar información</legend>
+            <label>Adjuntar resguardo de pago (PDF): </label>
+            <input type="file">
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

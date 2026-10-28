@@ -1,0 +1,21 @@
+* { 
+   box-sizing: border-box; 
+}
+
+.recuadro1{
+    color:rgb(255 0 0 / 10%)
+}
+.recuadro2{
+    color:rgb(255 0 0 / 30%)
+}
+.recuadro3{
+    color:rgb(255 0 0 / 50%)
+}
+.recuadro4{
+    color:rgb(255 0 0 / 100%);
+    background-color: rgb(0 193 207 / 100%);
+}
+.recuadro5{
+    color:rgb(255 0 0 / 10%);
+    background-color: rgb(0 193 207 / 10%);
+}

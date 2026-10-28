@@ -1,0 +1,40 @@
+/* 1.	Query que se aplica en pantallas, la ventana tiene 700px de ancho o más y la pantalla está en formato horizontal. */
+@media screen and (min-width: 700px) and (orientation: landscape){
+
+}
+
+/* 2.	Query que se aplica a cualquier tipo de medio en orientación vertical. */
+@media all and (orientation: portrait) {
+
+}
+
+/* 3.	Query que se aplica a pantallas más anchas de 769 pixeles y a dispositivos de impresión con un ancho de papel menor a 6 pulgadas. */
+@media screen and (min-width: 769px),  print and (max-width: 6in){
+
+}
+
+
+/* 4.	Query que se aplica a pantallas con un ancho de dispositivo entre 768px y 1024px con orientación horizontal. */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 5.	Query que se aplica a impresoras y a pantallas monocromáticos. */
+@media print, screen and (monochrome) {
+
+}
+
+/* 6.	Query que se aplica a todos los dispositivos que no sean impresoras. */
+@media not print {
+
+}
+
+/* 7.	Query que se aplica a impresoras de color. */
+@media print and (color: 16){
+
+}
+
+/* 8.	Query que se aplica cuando la proporción entre el ancho y el alto del área de visualización sea 16:9 o 16:10.  */
+@media (aspect-ratio: 16/9) or (aspect-ratio: 16/10) {
+
+}

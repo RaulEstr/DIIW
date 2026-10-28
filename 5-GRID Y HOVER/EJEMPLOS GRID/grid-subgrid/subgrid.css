@@ -1,0 +1,77 @@
+body {
+    margin: 40px;
+  }
+  
+    .contenedor {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 150px 100px 150px 100px ;
+      grid-template-rows: repeat(3,minmax(100px,auto));
+      background-color: #fff;
+      color: #444;
+    }
+  
+    .caja {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+  
+    }
+  
+    .caja .caja {
+      background-color: #ccc;
+      color: #444;
+      
+    }
+  
+    .a {
+      grid-column: 1 / 3;
+    }
+  
+    .b {
+      grid-column: 4 ;
+    }
+  
+    .c {
+      grid-column: 1;
+      grid-row: 2 / 4;
+    }
+  
+    .d{
+      grid-column: 2 / 5;
+      grid-row: 2 / 4;
+      display: grid;
+
+      /*OPCION SUBGRID: */
+        grid-template-columns: subgrid; /* Hace coincidir las columnas con las del contenedor.
+        Probar a comentar esta línea y descomentar las siguientes, GRID SECUNDARIO, para ver la diferencia de comportamiento*/    
+     
+
+      /*OPCION GRID SECUNDARIO en la caja .d, ES OTRO GRID DIFERENTE*/ 
+        /*
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 10px;
+        row-gap: 0px;
+        */
+      /*FIN GRID SECUNDARIO*/
+  
+    }
+  
+    .e, .h, .k{
+      grid-column: 1;
+    }
+    .f, .i{
+      grid-column: 2 / 3;
+    }
+    .g, .j{
+      grid-column: 4;
+    }
+    .h, .i, .j{
+      grid-row: 2;
+    }
+    .k{
+      grid-row: 3;
+    }*/
+   

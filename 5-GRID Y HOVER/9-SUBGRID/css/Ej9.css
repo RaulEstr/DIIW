@@ -1,0 +1,111 @@
+body {
+    background-color: #fbeede;
+    background-image: url("../img/Fondo1-AgoEkoAstea.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header, footer {
+    font-family: Reem Kufi Ink;
+    color:brown;
+}
+
+main {
+    font-family: Alkalami;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: -10px -10px 0 #517c9c;
+}
+
+h2 {
+    display: inline-block;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+}
+
+div:first-child p {
+    background-color: black;
+    color:white;
+    display: inline-block;
+}
+
+main section:nth-child(1) {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+
+
+main section:nth-child(2) {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+
+main section:nth-child(3){
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+
+main section:nth-child(1) article p:first-child {
+    color: olive;
+}
+
+main section:nth-child(1) article p span {
+    background-color: olive;
+    color: white;
+}
+
+main section:nth-child(2) article p:first-child {
+    color: chocolate;
+}
+
+main section:nth-child(2) article p span {
+    background-color: chocolate;
+    color: white;
+}
+
+main section:nth-child(3) article p:first-child {
+    color: orange;
+}
+
+main section:nth-child(3) article p span {
+    background-color: orange;
+    color: white;
+}
+
+p img {
+    width: 30%;
+    height: 30%;
+}
+
+footer p {
+    text-align: right;
+    border-top: 10px dotted darkcyan;
+    color: black;
+}
+
+footer div {
+    display: grid;
+    grid-auto-flow: column;
+}

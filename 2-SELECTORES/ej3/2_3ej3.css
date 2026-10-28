@@ -1,0 +1,42 @@
+body {
+    color: grey;
+}
+
+/*ESTILO DE CLASES*/
+
+.verdes {
+    color: green;
+}
+.segundo {
+    color: blue;
+}
+
+.segundo :nth-child(odd){
+    font-style: oblique;
+}
+.segundo :nth-child(even) {
+    background-color: aqua;
+}
+.segundo{
+    text-shadow: 2px 2px grey;
+}
+
+
+/*Estilo de Atributo*/
+li[class="azules"] {
+    text-decoration: overline;
+}
+
+/*El primer elemento*/
+
+li:first-child{
+    text-align: right
+}
+
+/*Añadir comentarios de antes y después del color verde */
+il[class="verdes"]::before {
+    content:"Estoy antes de los de color verde";
+}
+il[class="verdes"]::after {
+    content:"Estoy tras los de color verde";
+}

@@ -1,0 +1,90 @@
+body{
+	color: #333333;
+	font-family: verdana, arial, helvetica;
+	font-size:.7em;
+}
+
+p{
+	text-align:justify;
+}
+
+.parrafo2{
+	background-color: lightcyan;	
+	padding: 10px;		
+}
+.imagen1{
+	float: left;
+}
+
+.imagen2{
+	float: right;
+}
+
+a{
+	background-color: cyan;
+	clear: both;
+	display: block;
+}
+
+/* ------------------------------------ */
+
+.imagen3{
+	float: left;
+}
+
+.cajaarriba{
+	background-image: url(../recursos/arriba.gif), url(../recursos/abajo.gif);
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+	border: 2px solid gray;
+	width: 600px;
+
+}
+.cajaabajo {
+
+}
+
+body {
+	width: 600px;
+}
+
+.contenedor {
+	padding: 50px;
+}
+
+.parrafo1{
+	background-color: lightblue;
+	line-height: 20px;
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cajita1{
+	background-color: #c9f;
+	float: left;
+	margin: 11px;
+	padding: 10px;
+	width: 60px;
+}
+.cajita2{
+	background-color: #ccf;
+	margin: 11px;
+	padding: 15px;
+	float: right;
+	width: 150px;
+	text-align: center;
+}
+
+.parrafo3{
+	background-color: lime;
+	padding: 10px;
+}
+.parrafo4{
+	background-color: yellow;
+	padding: 10px;
+}
+
+.parrafo7 {
+	clear: both;
+}

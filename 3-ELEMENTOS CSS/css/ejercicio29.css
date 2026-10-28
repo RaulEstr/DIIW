@@ -1,0 +1,7 @@
+div {
+    width: 500px;
+    white-space: pre-wrap;
+    background-color: pink;
+    border: 40px solid transparent;
+    border-image: url(../imagenes/loremIpsum.png) 50 repeat;
+} 

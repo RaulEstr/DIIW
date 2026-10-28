@@ -1,0 +1,63 @@
+body{
+    background-image: url(../imagenes/paper.gif);
+}
+h1{
+    color: grey;
+    text-align:center;
+}
+
+.principal{
+    background-color:lightcyan;
+    border: 10px groove lightgrey;
+    margin: 10px auto 0;
+    width: 750px;
+}
+.imagen{
+    background-color:lightblue;
+    border-bottom:3px solid grey;
+    border-right:3px solid grey;
+}
+img{
+    border: 3px solid white;
+
+}
+a{
+    color:white;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:.7em;
+    text-decoration:none;
+}
+.clear{
+    clear:both;
+}
+
+/* ---------------------------------------- */
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.imagen {
+    width: 150px;
+    margin: 20px;
+    padding: 3px;
+    text-align: center;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.imagen img {
+    width: 195px;
+}
+
+span {
+    font-weight: bold;
+}
+

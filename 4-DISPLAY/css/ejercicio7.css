@@ -1,0 +1,92 @@
+body{	
+    color: navy; 
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: .8em; 
+}
+p{
+    background-color: white;
+    font-weight:bold;
+    margin: 13px 15px;
+    padding: 10px;
+    text-align: center;
+}
+span{		
+    color: white; 
+}
+.capapadre{	
+    background-color: #ccccff;
+    border: 4px solid #9933ff; 
+    height: 480px; 
+}
+.capahija1{	
+    background-color: #66ccff;
+    border: blue thin solid;
+    height: 373px; 
+    margin:0 auto;
+}
+.capahija2{	
+    background-color: #ffccff;
+    border: thin solid purple;
+    height: 260px;
+    left: 60px;
+}
+.capaconfoto{	
+    background-image: url("../imagenes/ledger.gif");
+    
+    border: 3px solid #ff9900;
+    height: 130px;
+    left: 15px;
+}
+.capahija3{	
+    background-color: transparent;
+    border: 3px solid blue;
+    height: 110px;
+    left: 270px;
+}
+.capahija4{	
+    background-color: gray;
+    border: thin solid red; 
+    height: 155px; 
+    left: 360px; 
+}
+/* ---------------------------------------------------- */
+
+.capapadre{	
+    width: 600px;
+    height: 480px;
+}
+
+.capahija1 {
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    top: 100px;
+    left: 60px;
+}
+
+.capahija2 {
+    position: absolute;
+    top: 180px;
+    left: 75px;
+    width: 300px;
+    height: 270px;
+}
+
+.capaconfoto{
+    position: absolute;
+    top: 90px;
+    width: 180px;
+    height: 150px;
+}
+
+.capahija3 {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+}
+
+.capahija4 {
+    position: absolute;
+    top: 180px;
+    left: 395px;
+}   
