@@ -3,10 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salegi Jatetxea</title>
+    <title>GESTIÓN - Salegi Jatetxea</title>
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div id="contenedorLogo">
+            <img src="../media/imgs/logo.png" alt="SALEGI JATETXEA">
+        </div>
+        <div id="contenedorIdiomas">
+            <p>IDIOMA</p>
+            <img src="../media/imgs/es.svg" alt="ES">
+            <img src="../media/imgs/eu.svg" alt="EUS">
+        </div>
+        <div id="contenedorNav">
+            <nav>
+                <a href="../index.html">INICIO</a>
+                <a href="./consultarmenu.html">CARTA</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="contenedorGestion">
+            <h1>GESTIONAR CARTA</h1>
+            <table>
+                <tr><th colspan="4">Entrantes</th></tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Pulpo</th>
+                    <td>con tocino ibérico y puerro a la brasa</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Almejeas</th>
+                    <td>a la marinera, acompañadas de pan de masa madre</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Gambas</th>
+                    <td>de Huelva, a la brasa</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Jamón</th>
+                    <td>ibérico de bellota 5J</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Ensalada</th>
+                    <td>de chipirón frito, trigueros y piquillos</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Fritos Variados</th>
+                    <td>croquetas de jamón, croquetas de chipirón, rabas, tigres...</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr><th colspan="4">Carne</th></tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Solomillo</th>
+                    <td>de vaca a la brasa con piquillos y chalotas al tuétano</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Estofado de rabo</th>
+                    <td>al vino tinto con espuma de patata</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Cordero lechal</th>
+                    <td>a la brasa con patatas y ensalada</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Lumagorri</th>
+                    <td>a la brasa sobre arroz meloso de setas y trufa</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Chuletón</th>
+                    <td>de vaca vieja a la parrilla</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr><th colspan="4">Pescado</th></tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Lomo de merluza</th>
+                    <td>con kokotxas y almejas en salsa verde</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Ventresca de atún rojo</th>
+                    <td>a la parrilla</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>Lomo de bacalao</th>
+                    <td>confitado con piperrada y pil-pil</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr><th colspan="4">Postres</th></tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>ipsum</th>
+                    <td>dolor</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+                <tr>
+                    <td><img width="100" src="../media/imgs/eu.svg" alt="menu1"></td>
+                    <th>ipsum</th>
+                    <td>dolor</td>
+                    <td><button type="button">BORRAR</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="contenedorAniadir">
+            <form method="post">
+                <label for="nombre">Nombre: </label><input type="text" id="nombre" required>
+                <label for="descripcion">Descripcion: </label><input type="text" id="descripcion" required>
+                <label for="imagen">Imagen: </label><input type="file" id="imagen" required>
+                <label for="precio">Precio: </label><input type="number" id="precio">
+                <label for="tipo">Tipo de plato:</label>
+                <select id="tipo">
+                    <option value="entrante">Entrante</option>
+                    <option value="carne">Carne</option>
+                    <option value="pescado">Pescado</option>
+                    <option value="pescado">Postre</option>
+                </select>
+                <input type="submit" value="AÑADIR">
+            </form>
+        </div>
+        <div id="contenedorLogin">
+            <form action="../index.html" id="formu">
+                <input type="submit" value="LOGOUT">
+            </form>
+        </div>
+    </main>
 </body>
 </html>

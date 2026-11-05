@@ -124,6 +124,45 @@ input[type="submit"] {
 }
 /* FOOTER */
 
+/* PAGINA MENU */
+td img {
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    text-align: center;
+}
+section table {
+    display: inline-block;
+}
+
+#contenedorGestion {
+    text-align: center;
+}
+
+#contenedorGestion table {
+    display: inline-block;
+}
+#contenedorGestion table, #contenedorGestion tr, #contenedorGestion td, #contenedorGestion th { 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+section table tr td {
+    vertical-align: top;
+    margin: 10px;
+    padding: 10px;
+}
+section table tr th:first-of-type {
+    vertical-align: bottom;
+    
+}
+section table tr th {
+    margin: 10px;
+    padding: 10px;
+}
+
 /* RESPONSIVE TABLET */
 @media screen and (min-width: 700px) {
     #contenedorIdiomas {
@@ -149,6 +188,32 @@ input[type="submit"] {
         width: 150px;
         height: 150px;
     }
+
+    td img {
+        width: 200px;
+        height: 200px;
+    }
+
+    table tr td {
+        font-size: 1.5em;
+    }
+
+    table tr th {
+        font-size: 1.5em;
+    }
+
+    button[type="button"] {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+    
 }
 
 /* RESPONSIVE PC */
@@ -156,5 +221,22 @@ input[type="submit"] {
     article img {
         width: 200px;
         height: 200px;
+    }
+
+    td img {
+        width: 250px;
+        height: 250px;
+    }
+
+    table tr td {
+        font-size: 2em;
+    }
+
+    table tr th {
+        font-size: 2em;
+    }
+
+    button[type="button"] {
+        font-size: 1em;
     }
 }
