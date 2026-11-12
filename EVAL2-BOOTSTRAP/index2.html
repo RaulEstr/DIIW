@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salegi Jatetxea | Restaurante en Itziar</title>
+    <meta name="description" content="Página principal de Salegi Jatetxea">
+    <meta name="author" content="Raúl Estrada">
+    <link rel="icon" href="media/imgs/favicon.webp" type="image/webp">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<header class="fa-header">
+    <!-- <div class="logo">
+        <a href="index.html">
+            <img src="media/imgs/logo.png" alt="Salegi Jatetxea">
+        </a>
+    </div>
+
+    <div class="idiomas">
+        <p>Idioma</p>
+        <div class="idiomas-botones">
+            <img src="media/imgs/es.svg" alt="ES">
+            <img src="media/imgs/eu.svg" alt="EUS">
+        </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="media/imgs/logo.png" alt="Salegi Jatetxea"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Carta</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="card">
+        <h1>Cocina vasca entre el mar y la montaña</h1>
+
+        <p>
+            En Salegi Jatetxea cocinamos con producto de temporada, carnes de caseríos de la zona
+            y pescados frescos del Cantábrico. Nuestras elaboraciones son caseras y nuestra parrilla
+            es el corazón de la casa.
+        </p>
+    </section>
+
+    <section class="container">
+        <h2 class="titulo-seccion">Noticias</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <article class="card">
+                        <h2>Temporada de setas y trufa negra</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-setas.jpg" alt="Setas y trufa negra de temporada">
+                        <p>
+                            Ha comenzado la temporada de setas y trufa negra. Esta semana proponemos un arroz
+                            cremoso de trufa, setas y foie, elaborado con producto de temporada y acompañado de
+                            una selección de vinos de nuestra bodega.
+                        </p>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2>Nuevo menú del día</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-menu.jpg" alt="Plato del menú del día de Salegi Jatetxea">
+                        <p>
+                            Cada jornada preparamos un menú del día con varias opciones de primero, segundo y
+                            postre. Una forma cómoda de disfrutar de nuestra cocina de mercado sin renunciar al
+                            producto y a las elaboraciones caseras.
+                        </p>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2>Pescados del Cantábrico</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-pescado.jpg" alt="Pescado fresco del Cantábrico a la parrilla">
+                        <p>
+                            Recibimos pescado fresco del Cantábrico y lo preparamos a la parrilla o en elaboraciones
+                            tradicionales vascas. Esta semana destacamos la merluza, el rodaballo y la ventresca de
+                            atún rojo, según disponibilidad diaria.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <article class="card">
+                        <h2>Fritos variados y Souflée Salegi</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-fritos.jpg" alt="Fritos variados de Salegi Jatetxea">
+                        <p>
+                            Nuestros fritos variados siguen siendo uno de los clásicos de la casa: croquetas,
+                            rabas, tigres y otras elaboraciones para compartir. Y, para terminar, no puede faltar
+                            nuestro Souflée Salegi, elaborado en casa.
+                        </p>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2>Celebraciones y eventos</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-eventos.jpg" alt="Salón preparado para una celebración">
+                        <p>
+                            Disponemos de varios salones para celebraciones familiares, comidas de empresa,
+                            bodas y eventos especiales. Preparamos menús personalizados y ofrecemos opciones
+                            para vegetarianos, celíacos y personas con alergias.
+                        </p>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2>La huerta de temporada</h2>
+                        <img width="200" class="img-thumbnail" src="media/imgs/noticia-verduras.jpg" alt="Verduras de temporada a la brasa">
+                        <p>
+                            Las verduras de temporada tienen un lugar protagonista en nuestra cocina. Alcachofas,
+                            espárragos, pimientos y hortalizas de proximidad, preparadas a la brasa para respetar
+                            al máximo su sabor.
+                        </p>
+                    </article>
+                </div>
+            </div>     
+        </div>
+    </section>
+
+    <form class="row g-3 needs-validation" action="menu/gestionarmenu.html" method="get" novalidate>
+      <div class="col1">
+        <label for="validationCustom01" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+      </div>
+      <div class="col2">
+        <label for="validationCustom02" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="validationCustom02" required>
+        </div>
+      <div class="col3">
+        <button class="btn btn-primary" type="submit">Gestionar menu</button>
+      </div>
+    </form>
+</main>
+
+
+
+<footer class="site-footer">
+    <div class="footer-contenido">
+        <div>
+            <h3>Salegi Jatetxea</h3>
+            <p>Galtzada Kalea, 13<br>20829 Itziar, Gipuzkoa</p>
+        </div>
+
+        <div>
+            <h3>Contacto</h3>
+            <p>
+                Teléfono y WhatsApp:
+                <a href="">943 19 90 04</a><br>
+                Email:
+                <a href="">info@salegi.net</a>
+            </p>
+        </div>
+
+        <div>
+            <h3>Horario</h3>
+            <p>Jueves a lunes: 13:00 – 17:00<br>Martes y miércoles: cerrado</p>
+        </div>
+    </div>
+
+    <p class="copyright">&copy; 2026 Salegi Jatetxea</p>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

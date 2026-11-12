@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de la carta - Salegi Jatetxea</title>
+    <meta name="description" content="Panel de gestión de la carta de Salegi Jatetxea">
+    <meta name="author" content="Raúl Estrada">
+    <link rel="icon" href="../media/imgs/favicon.webp" type="image/webp">
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../media/imgs/logo.png" alt="Salegi Jatetxea">
+        </a>
+    </div>
+
+    <div class="idiomas">
+        <p>Idioma</p>
+        <div class="idiomas-botones">
+            <img src="../media/imgs/es.svg" alt="ES">
+            <img src="../media/imgs/eu.svg" alt="EUS">
+        </div>
+    </div>
+
+    <nav class="navegacion">
+        <a href="../index.html">Inicio</a>
+        <a href="consultarmenu.html">Carta</a>
+        <a href="gestionarmenu.html" class="activo">Gestión</a>
+    </nav>
+</header>
+
+<main>
+    <section class="tarjeta seccion presentacion">
+        <h1>Gestión de la carta</h1>
+    </section>
+
+    <section class="categoria seccion">
+        <h2 class="titulo-seccion">Entrantes</h2>
+
+        <ul class="lista-platos">
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/fritos.jpg" alt="Fritos variados">
+
+                <div class="plato-info">
+                    <h3>Fritos variados</h3>
+                    <p>Croquetas de jamón, croquetas de chipirón, rabas, tigres y otros fritos de la casa</p>
+                    <span class="precio">24 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/alcachofas.jpg" alt="Alcachofas de Navarra">
+
+                <div class="plato-info">
+                    <h3>Alcachofas de Navarra</h3>
+                    <p>A la brasa, sobre tocino ibérico</p>
+                    <span class="precio">18 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/ventresca.jpg" alt="Ventresca de atún rojo">
+
+                <div class="plato-info">
+                    <h3>Ventresca de atún rojo</h3>
+                    <p>En su caldo corto</p>
+                    <span class="precio">22 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/foie.jpg" alt="Huevo, foie y trufa negra">
+
+                <div class="plato-info">
+                    <h3>Huevo, foie y trufa</h3>
+                    <p>Huevo ecológico, foie gras y trufa negra de temporada</p>
+                    <span class="precio">21 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/ensalada.jpg" alt="Ensalada de chipirón frito, trigueros y piquillos">
+
+                <div class="plato-info">
+                    <h3>Ensalada de chipirón</h3>
+                    <p>Chipirón frito, trigueros y piquillos</p>
+                    <span class="precio">19 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+                
+            </li>
+        </ul>
+    </section>
+
+    <section class="categoria seccion">
+        <h2 class="titulo-seccion">Arroces</h2>
+
+        <ul class="lista-platos">
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/arroz-marisco.jpg" alt="Arroz de marisco">
+
+                <div class="plato-info">
+                    <h3>Arroz de marisco</h3>
+                    <p>Con gambas, almejas, chipirón y caldo de pescado</p>
+                    <span class="precio">26 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/arroz-trufa.jpg" alt="Arroz de trufa y setas">
+
+                <div class="plato-info">
+                    <h3>Arroz de trufa y setas</h3>
+                    <p>Arroz cremoso con trufa negra, setas de temporada y foie</p>
+                    <span class="precio">28 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/arroz-vegetal.jpg" alt="Arroz de verduras">
+
+                <div class="plato-info">
+                    <h3>Arroz de verduras</h3>
+                    <p>Verduras de temporada, alcachofa y espárrago triguero</p>
+                    <span class="precio">22 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="categoria seccion">
+        <h2 class="titulo-seccion">Carne</h2>
+
+        <ul class="lista-platos">
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/chuleton.jpg" alt="Chuletón de vaca vieja">
+
+                <div class="plato-info">
+                    <h3>Chuletón de vaca vieja</h3>
+                    <p>A la parrilla, al peso</p>
+                    <span class="precio">62 €/kg</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/cordero.jpg" alt="Cordero lechal al carbón">
+
+                <div class="plato-info">
+                    <h3>Cordero lechal</h3>
+                    <p>Al carbón, con patatas y ensalada</p>
+                    <span class="precio">28 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/solomillo.jpg" alt="Solomillo de vaca">
+
+                <div class="plato-info">
+                    <h3>Solomillo de vaca</h3>
+                    <p>A la brasa, con piquillos y chalotas al tuétano</p>
+                    <span class="precio">30 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/rabo.jpg" alt="Estofado de rabo">
+
+                <div class="plato-info">
+                    <h3>Estofado de rabo</h3>
+                    <p>Al vino tinto, con espuma de patata</p>
+                    <span class="precio">25 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/lumagorri.jpg" alt="Lumagorri a la brasa con arroz meloso">
+
+                <div class="plato-info">
+                    <h3>Lumagorri</h3>
+                    <p>A la brasa, sobre arroz meloso de setas y trufa</p>
+                    <span class="precio">26 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+                
+            </li>
+        </ul>
+    </section>
+
+    <section class="categoria seccion">
+        <h2 class="titulo-seccion">Pescado</h2>
+
+        <ul class="lista-platos">
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/merluza.jpg" alt="Lomo de merluza">
+
+                <div class="plato-info">
+                    <h3>Lomo de merluza</h3>
+                    <p>Con kokotxas y almejas en salsa verde</p>
+                    <span class="precio">27 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/rodaballo.jpg" alt="Rodaballo a la parrilla">
+
+                <div class="plato-info">
+                    <h3>Rodaballo</h3>
+                    <p>A la parrilla, con verduras de temporada</p>
+                    <span class="precio">32 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/bacalao.jpg" alt="Lomo de bacalao">
+
+                <div class="plato-info">
+                    <h3>Lomo de bacalao</h3>
+                    <p>Confitado, con piperrada y pil-pil</p>
+                    <span class="precio">25 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/rape.jpg" alt="Lomo de rape en salsa verde con almejas">
+
+                <div class="plato-info">
+                    <h3>Lomo de rape</h3>
+                    <p>En salsa verde, con almejas</p>
+                    <span class="precio">28 €</span>
+                </div>
+                
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+                
+            </li>
+        </ul>
+    </section>
+
+    <section class="categoria seccion">
+        <h2 class="titulo-seccion">Postres</h2>
+
+        <ul class="lista-platos">
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/souflee.jpg" alt="Souflée Salegi">
+
+                <div class="plato-info">
+                    <h3>Souflée Salegi</h3>
+                    <p>El clásico soufflé de la casa, elaborado al momento</p>
+                    <span class="precio">9 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/torrija.jpg" alt="Torrija de brioche caramelizada">
+
+                <div class="plato-info">
+                    <h3>Torrija de brioche</h3>
+                    <p>Caramelizada, con helado de stracciatella de chocolate</p>
+                    <span class="precio">8 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/sorbete.jpg" alt="Sorbete de manzana">
+
+                <div class="plato-info">
+                    <h3>Sorbete de manzana</h3>
+                    <p>Manzana Granny Smith, crumble de almendra e intxaur-saltsa</p>
+                    <span class="precio">7 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+
+            <li class="tarjeta tarjeta-plato">
+                <img src="../media/imgs/brownie.jpg" alt="Brownie de chocolate con helado de frambuesa">
+
+                <div class="plato-info">
+                    <h3>Brownie de chocolate</h3>
+                    <p>Con helado de frambuesa</p>
+                    <span class="precio">7 €</span>
+                </div>
+
+                <button class="boton-peligroso boton-borrar" type="button">
+                    Borrar
+                </button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="tarjeta seccion">
+        <h2 class="titulo-seccion">Añadir plato</h2>
+
+        <form method="post" class="formulario" enctype="multipart/form-data">
+            <label for="nombre">Nombre</label>
+            <input class="campo" type="text" id="nombre" name="nombre" placeholder="Ejemplo: Lomo de merluza" required>
+
+            <label for="descripcion">Descripción</label>
+            <textarea class="campo" id="descripcion" name="descripcion" rows="3" placeholder="Ejemplo: Con kokotxas y almejas en salsa verde" required></textarea>
+
+            <label for="imagen">Imagen</label>
+            <input class="campo" type="file" id="imagen" name="imagen" accept="image/*" required>
+
+            <label for="precio">Precio</label>
+            <input class="campo" type="number" id="precio" name="precio" min="0" step="0.01" placeholder="Ejemplo: 27.00" required>
+
+            <label for="tipo">Tipo de plato</label>
+            <select class="campo" id="tipo" name="tipo" required>
+                <option value="" disabled selected>Selecciona una categoría</option>
+                <option value="entrante">Entrantes</option>
+                <option value="arroz">Arroces</option>
+                <option value="carne">Carne</option>
+                <option value="pescado">Pescado</option>
+                <option value="postre">Postres</option>
+            </select>
+
+            <button class="boton" type="submit">Añadir plato</button>
+        </form>
+    </section>
+
+    <section class="tarjeta seccion">
+        <h2 class="titulo-seccion">Sesión</h2>
+
+        <form action="../index.html" method="get" class="formulario">
+            <button class="boton" type="submit">Cerrar sesión</button>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-contenido">
+        <div>
+            <h3>Salegi Jatetxea</h3>
+            <p>Galtzada Kalea, 13<br>20829 Itziar, Gipuzkoa</p>
+        </div>
+
+        <div>
+            <h3>Contacto</h3>
+            <p>
+                Teléfono y WhatsApp:
+                <a href="">943 19 90 04</a><br>
+                Email:
+                <a href="">info@salegi.net</a>
+            </p>
+        </div>
+
+        <div>
+            <h3>Horario</h3>
+            <p>Jueves a lunes: 13:00 – 17:00<br>Martes y miércoles: cerrado</p>
+        </div>
+    </div>
+
+    <p class="copyright">&copy; 2026 Salegi Jatetxea</p>
+</footer>
+
+<script src="../scripts/gestion.js" defer></script>
+</body>
+</html>
