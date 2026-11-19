@@ -7,30 +7,52 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container mx-md-0">
-        <div class="row bg-primary">
+    <div class="container-fluid container-lg vh-100">
+        <div class="row bg-primary text-center h-25">
             <div class="col-12">
                 header
             </div>
         </div>
-        <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 bg-warining">
-            <div class="d-none d-lg-block col-lg-2">
+
+        <div class="row row-cols-2 bg-warining h-75">
+            <div class="col-3 d-none d-lg-block bg-warning h-100">
                 aside
             </div>
-            <div class="col-6 col-lg bg-secondary">
-                1
+            <div class="col-12 col-lg-9 h-100">
+                <div class="row row-cols-2 h-50">
+                    <div class="col-6 bg-secondary border border-warning d-flex justify-content-center align-items-center">
+                        1
+                    </div>
+                    <div class="col-6 bg-secondary border border-warning d-flex justify-content-center align-items-center">
+                        2
+                    </div>
+                    <div class="col-6 bg-secondary border border-warning d-flex justify-content-center align-items-center">
+                        3
+                    </div>
+                    <div class="col-6 bg-secondary border border-warning d-flex justify-content-center align-items-center">
+                        4
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 border border-dark rounded h-50">
+                    <div class="col bg-danger">
+                        nav
+                    </div>
+                    <div class="col bg-info d-flex flex-column justify-content-between">
+                        <div class="p-2 text-start">
+                            pie1
+                        </div>
+                        <div class="p-2 text-center">
+                            pie2
+                        </div>
+                        <div class="p-2 text-end">
+                            pie3
+                        </div>
+                    </div>   
+                </div>
             </div>
-            <div class="col-6 col-lg bg-secondary">
-                2
-            </div>
-            <div class="col-6 col-lg bg-secondary">
-                3
-            </div>
-            <div class="col-6 col-lg bg-secondary">
-                4
-            </div>
-        </div>
+        </div>        
     </div>
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
